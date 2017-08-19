@@ -1,0 +1,275 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/font_1.1.1/iconfont.eot');
+  src: url('../fonts/font_1.1.1/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/font_1.1.1/iconfont.woff') format('woff'),
+  url('../fonts/font_1.1.1/iconfont.ttf') format('truetype'),
+  url('../fonts/font_1.1.1/iconfont.svg#iconfont') format('svg');
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/font_1.1.2/iconfont.eot');
+  src: url('../fonts/font_1.1.2/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/font_1.1.2/iconfont.woff') format('woff'),
+  url('../fonts/font_1.1.2/iconfont.ttf') format('truetype'),
+  url('../fonts/font_1.1.2/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.triangle_border_down{
+    width: 0;
+    height: 0;
+    border-top: 15px solid #6173f4;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+}
+
+.header{
+	overflow: hidden;
+	/*儿子有多高    父就有多高*/
+}
+
+.header .navbar-default{
+	background: transparent;
+	border: none;
+	margin-top: 15px;
+	position: absolute;
+	width: 100%;
+}
+
+.header .navbar-default .navbar-nav > .active > a{
+	color: #fff;
+	background: transparent;
+}
+
+.header .navbar-default .navbar-nav > li > a{
+	font-size: 16px;
+	color: #fff;
+}
+
+.header .navbar-brand > img {
+	margin-top: -15px;
+}
+
+.header .navbar-default .navbar-nav > .active > a{
+	border-bottom: 2px #6173f4 solid;
+}
+
+.header .navbar-default .navbar-nav > li > a:hover{
+	border-bottom: 2px #6173f4 solid;
+}
+
+
+/*屏幕缩小时，button下拉背景透明，并且没有顶下面的内容下去*/
+@media (max-width:750px) {
+
+	.header .navbar-default{
+		background: #fff;
+		margin: 0;
+		min-height: 70px;
+		position: static;
+	}
+
+	.header .navbar-default .navbar-nav > li > a{
+		background: #fff;
+		color: #333;
+		font-size: 16px;
+	}
+
+	.header .navbar-default .navbar-nav > .active > a{
+		color: #333;
+		font-size: 16px;
+	}
+
+	.header .navbar-default .navbar-toggle{
+		margin-top: 20px;
+    	margin-right: 25px;
+	}
+
+	.header .navbar-default .navbar-collapse{
+		border: none;
+	}
+
+	.header .navbar-default .navbar-collapse ul{
+		border-top: 1px solid #e7e7e7;
+	}
+}
+
+/*-----------内容-------------*/
+.main{
+	font-family: '宋体';
+	padding: 40px 0px;
+}
+
+.main .container .title{
+	margin-bottom: 60px;
+}
+
+.main .container .title h1{
+	font-size: 45px;
+	margin-bottom: 40px;
+}
+
+.main .container .title p{
+	font-size: 20px;
+	color: #989898;
+}
+
+.page01 .container > .row > div > h4{
+	font-size: 17px;
+    color: #818892;
+    font-weight: 600;
+    margin:30px 0px;
+}
+
+.page01 .container > .row > div{
+    margin-bottom: 30px;
+}
+
+.main .container > .row > div > p{
+	font-size: 17px;
+	color: #7f7f7f;
+}
+
+.main .container > .row > div > i{
+	display: inline-block;
+	width: 84px;
+	height: 84px;
+	border-radius: 50%;
+	background: #2aaf67;
+}
+
+.main .container > .row > div > i.iconfont{
+	font-size: 53px;
+	color: #fff;
+}
+
+.page02 .container .row > div > .media {
+	margin-bottom: 60px;
+	margin-right: 30px;
+}
+
+.page02 .container > .row > div > .media > .media-left > .iconfont{
+	font-size: 50px;
+	color: #357bb7;
+}
+
+.page02 .container .row > div > .media > .media-body > p{
+	margin-top: 10px;
+	line-height: 25px;
+	color: #7f7f7f;
+	font-size: 16px;
+}
+
+.page03 .container > .row > div > h4{
+	font-size: 20px;
+    color: #818892;
+    margin:30px 0px;
+}
+
+.page03 .container > .row > div > i.iconfont{
+	font-size: 60px;
+}
+
+
+.page04 .container > .row > div{
+	padding: 15px;
+}
+
+.page04 .container > .row  .wrap-content > h3{
+	width: 90px;
+	height:42px;
+	background-color: #6173f4;
+	margin: -22px auto 8px auto;
+	color: #fff;
+	line-height: 45px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.page04 .container > .row .wrap-content >h5{
+	color: #000;
+    font-weight: bold;
+}
+
+.page04 .container > .row .wrap-content >p{
+	width: 75%;
+	margin: 10px auto;
+	color: #7f7f7f;
+	line-height: 25px;
+	font-size: 17px;
+}
+
+.page04 .container > .row > div > div >ul{
+	list-style: none;
+	padding: 0;
+}
+
+.page04 .container > .row > div > div >ul li{
+	font-size: 20px;
+}
+
+.page04 .container > .row > div > .wrap-content >a{
+	margin-bottom: 60px;
+}
+
+.page04 .container > .row > div > .wrap-content{
+	border: 2px solid #6173f4;
+}
+
+.page05 .container > .row > .col-md-7{
+	margin-bottom: 40px;
+}
+
+.page05 .container > .row h2{
+	margin: 0px;
+	text-align: center;
+}
+
+.page05 .container > .row p{
+	text-indent:2em;
+	line-height: 35px;
+	margin-top: 20px;
+}
+
+.page06 .container > .row a{
+	margin:30px 0px;
+}
+.page06 .container > .row > div >p{
+	font-size: 18px;
+	margin:20px 0px;
+}
+
+.page06 .container > .row > div i.iconfont{
+	font-size: 25px;
+	color: #6173f4;
+	margin-right: 5px;
+}
+
+.header .fixed-top{
+	position: fixed !important;
+	background:#fff;
+	margin-top: 0px;
+	min-height: 70px;
+	box-shadow: rgb(204, 204, 204) 0px 1px 3px;
+}
+
+.header .fixed-top .navbar-nav > li > a {
+	color: #333;
+}
+.header .fixed-top .navbar-nav > .active > a {
+	color: #333;
+}
+
+.header .navbar-default .navbar-collapse ul{
+	margin-top: 10px;
+}
